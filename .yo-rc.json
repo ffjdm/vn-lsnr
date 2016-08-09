@@ -1,0 +1,11 @@
+{
+  "generator-nuxeo": {
+    "promptValues": {
+      "parent_package": "com.cvs.versionlistener",
+      "parent_artifact": "versioning-listener-project-parent",
+      "nuxeo_version": "7.10",
+      "package": "com.cvs.versionlistener"
+    },
+    "multi": true
+  }
+}

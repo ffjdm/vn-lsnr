@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<component
+	name="org.nuxeo.ecm.platform.notification.service.MajorIncrementNotificationContrib">
+
+	<require>org.nuxeo.ecm.platform.notification.service.NotificationContrib</require>
+
+	<extension
+		target="org.nuxeo.ecm.platform.ec.notification.service.NotificationService"
+		point="notifications">
+
+		<notification name="Modification" channel="email"
+			enabled="true" availableIn="Workspace" autoSubscribed="false"
+			template="modif" subject="${docTitle} has been modified by ${author}"
+			label="label.nuxeo.notifications.modif">
+			<event name="documentMajorVersionIncrement" />
+		</notification>
+
+	</extension>
+
+</component>

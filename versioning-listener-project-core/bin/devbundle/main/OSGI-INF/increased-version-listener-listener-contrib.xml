@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<component name="com.cvs.versionlistener.listener.increased-version-listener">
+
+	<extension target="org.nuxeo.ecm.core.event.EventServiceComponent"
+		point="listener">
+		<listener postCommit="true" name="increased-version-listener"
+			class="com.cvs.versionlistener.IncreasedVersionListener">
+			<event>documentCheckedIn</event>
+		</listener>
+	</extension>
+
+</component>

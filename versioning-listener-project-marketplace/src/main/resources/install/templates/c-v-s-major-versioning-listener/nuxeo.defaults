@@ -1,0 +1,7 @@
+## Edit this file to customize your configuration ##
+#c-v-s-major-versioning-listener.target=
+
+# Set list of templates to include, comma separated values.
+nuxeo.template.includes=common
+
+# org.nuxeo.ecm.instance.description=Nuxeo ECM customized with CVS Major Versioning Listener

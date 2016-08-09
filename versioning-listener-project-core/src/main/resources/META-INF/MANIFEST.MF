@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.cvs.versionlistener
+Bundle-Version: 1.0.0
+Bundle-Name: versioning-listener-project-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.cvs.versionlistener.versioning-listener-project-core;singleton=true
+Nuxeo-Component: OSGI-INF/increased-version-listener-listener-contrib.xml, OSGI-INF/document-version-increment-contrib.xml
